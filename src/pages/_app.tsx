@@ -1,7 +1,4 @@
-import "../styles/globals.css";
-import "../styles/custom.css";
-import "../styles/tops.css";
-import "../styles/rules.css";
+import "../styles/global.css";
 import React from "react";
 import Layout from "layouts";
 import ErrorBoundary from "containers/error-boundary";
@@ -9,11 +6,6 @@ import ErrorBoundary from "containers/error-boundary";
 import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css";
 import "primereact/resources/themes/rhea/theme.css";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-import "react-spring-bottom-sheet/dist/style.css";
 
 import { AppPropsWithLayout } from "types/layout.type";
 import { RXStore } from "store/rx.store";
